@@ -95,3 +95,53 @@ summary::before {
   top: 50%;
 }
 /* after before end */
+.css {
+  width: 80vw;
+  margin: auto;
+  background-color: aliceblue;
+  padding: 2.25rem;
+}
+.css h2 {
+  text-align: center;
+}
+.list ul li {
+  list-style: decimal;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.next_learning {
+  background-color: aqua;
+  padding: 40px;
+  margin: auto;
+}
+
+nav {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  width: max-content;
+}
+nav a:hover::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #4f260d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+header {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
