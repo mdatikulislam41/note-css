@@ -14,8 +14,9 @@
   <body>
     <header>
       <nav>
-        <a href="./index.html">Home</a>
+        <a href="./index.html" aria-current="page">Home</a>
         <a href="./css.html">CSS</a>
+        <a href="./aria.html">ARIA</a>
       </nav>
     </header>
     <main>
@@ -137,6 +138,59 @@
                   <li>
                     <a href="https://webcode.tools/">Html Generator</a>
                   </li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary>transition</summary>
+              <div class="details-content">
+                <ul>
+                  <li>
+                    <code>transition: color 0.3s ease-in-out 0s; </code>
+                  </li>
+                  <li>
+                    <code
+                      >transition: transition-property transition-duration
+                      transition-timing-function
+                    </code>
+                  </li>
+                  <li>
+                    <code
+                      >transition: transition-property transition-duration
+                      transition-timing-function transition-delay</code
+                    >
+                  </li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary>Overly for outside of popup or side menu</summary>
+              <div class="details-content">
+                <ul>
+                  <li>
+                    <code
+                      >.overly { background-color: rgba(0,0,0,0.5); position:
+                      fixed; inset: 0; }</code
+                    >
+                  </li>
+                  <li>
+                    <code>inset: 0;</code> এর মানে : left,right,top,bottom=0;
+                    তাই সবদিকে ছড়িয়ে থাকে
+                  </li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary>tabindex=""</summary>
+              <div class="details-content">
+                <ul>
+                  <li>tabindex="0"</li>
+                  <li>zero দিলে TAB বাটন দিয়ে access করা যায়।</li>
+                  <li>tabindex="-1"</li>
+                  <li>-1দিলে বাটন TAB বাটন দিয়ে access করা যায় না ।</li>
+                  <li>সচরাচর hidden ডকুমেন্টে ব্যবহার করা হয়।</li>
+                  <li>tabindex="positive Number"</li>
+                  <li>Positive Number দিয়ে ট্যাব এর serial ঠিক করে দেয়া যায়</li>
                 </ul>
               </div>
             </details>

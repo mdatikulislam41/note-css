@@ -145,3 +145,12 @@ header {
   align-items: center;
   margin-bottom: 5px;
 }
+nav [aria-current="page"] {
+  background-color: #bbb;
+  color: #000;
+  border-bottom: 0.25em solid #444;
+}
+pre {
+  overflow: scroll;
+  background-color: rgb(0, 0, 0, 0.5);
+}
