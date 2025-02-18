@@ -195,6 +195,74 @@
               </div>
             </details>
             <details>
+              <summary>flex</summary>
+              <div class="details-content">
+                <ul>
+                  <li>display: flex;</li>
+                  <li>
+                    flex-direction: row | row-reverse | column | column-reverse;
+                  </li>
+                  <li>flex-wrap: nowrap | wrap | wrap-reverse;</li>
+                  <li>flex-flow: row wrap;</li>
+                  <li>
+                    justify-content: flex-start | flex-end | center |
+                    space-between | space-around | space-evenly;
+                  </li>
+                  <li>
+                    align-items: stretch | flex-start | flex-end | center |
+                    baseline;
+                  </li>
+                  <li>
+                    align-content: stretch | flex-start | flex-end | center |
+                    space-between | space-around;
+                  </li>
+                  <li>flex-grow: 1;</li>
+                  <li>flex-shrink: 1;</li>
+                  <li>flex-basis: 0;</li>
+                  <li>flex: 1 1 0;</li>
+                  <li>order: 1;</li>
+                  <li>
+                    align-self: auto | flex-start | flex-end | center | baseline
+                    | stretch;
+                  </li>
+                  <li>
+                    flex-wrap: nowrap হলো ফ্লেক্স কনটেইনারের width ফ্লেক্স আইটেম
+                    ভাগ করে নিবে ,কারণ আইটেম গুলো কে এক সারিতে রাখবে।
+                  </li>
+                  <li>
+                    flex-wrap: wrap হলো আইটেমগুলিকে লাইন break করবে যদি ফ্লেক্স
+                    কনটেইনারের width, টোটাল ফ্লেক্স আইটেম width থেকে বেশি হয়।
+                  </li>
+                  <li>
+                    flex-grow: এটি আইটেমের css . কনটেইনারের খালি জায়গা থাকলে
+                    কিভাবে ভাগ হবে ,তা নির্ধারণ করে। default:0;
+                  </li>
+                  <li>flex-grow:0;কোনো ভাগ পাবে না।</li>
+                  <li>
+                    flex-shrink: কাজ: এটি নির্ধারণ করে যে ফ্লেক্স কন্টেইনারে
+                    জায়গা কম থাকলে (অর্থাৎ আইটেমগুলি কন্টেইনারে ফিট না হলে)
+                    ফ্লেক্স আইটেমগুলি কীভাবে সংকুচিত হবে।
+                  </li>
+                  <li>
+                    flex-shrink: 0; এটি সংকুচিত হবে না {width যা দেয়া হবে ঐটাই
+                    পাবে। }
+                  </li>
+                  <li>
+                    default flex-shrink: 1; জায়গা কম থাকলে এটি সংকুচিত হবে
+                  </li>
+                  <li>
+                    flex-basis এটি ফ্লেক্স আইটেমের প্রাথমিক আকার (initial size)
+                    নির্ধারণ করে।
+                  </li>
+                  <li>
+                    default flex-basis: auto; কন্টেন্টের উপর ভিত্তি করে আকার
+                    নির্ধারণ
+                  </li>
+                  <li>flex: flex-grow flex-shrink flex-basis;</li>
+                </ul>
+              </div>
+            </details>
+            <details>
               <summary>Next</summary>
               <div class="details-content">
                 <ul>
